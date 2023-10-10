@@ -65,7 +65,7 @@ const game = ()=> {
     }
     //Check for Rock
     if (playerChoice === 'rock') {
-      if (computerChoice === 'scissors'){
+      if (computerChoice === 'scissors') {
         winner.textContent = 'Player Wins';
         pScore++;
         updateScore();
@@ -79,7 +79,7 @@ const game = ()=> {
     }
     //Check for Paper
     if (playerChoice === 'paper') {
-      if (computerChoice === 'scissors'){
+      if (computerChoice === 'scissors') {
         winner.textContent = 'Computer Wins';
         cScore++;
         updateScore();
@@ -93,7 +93,7 @@ const game = ()=> {
     }
     //Check for Scissors
     if (playerChoice === 'scissors') {
-      if (computerChoice === 'rock'){
+      if (computerChoice === 'rock') {
         winner.textContent = 'Computer Wins';
         cScore++;
         updateScore();
